@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Profile{
+  width: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  background: #B1E693;
+}
+.Profile h1, .Profile h4, .Skill h2, .Links h2{
+  text-align: center;
+}
+.Skill ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.Skill li, .Links li{
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  border-radius: 4px;
+  background: #ddd;
+}
+.Links ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.Links ul li a{
+  text-decoration: none;
+  display: inline-block;
+}
